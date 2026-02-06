@@ -1,0 +1,2 @@
+export {};
+//# sourceMappingURL=product.types.d.ts.map
