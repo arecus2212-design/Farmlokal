@@ -90,9 +90,7 @@ Redis is used for performance optimization.
 • MySQL connection pooling  
 • Cursor-based pagination for large datasets  
 • Indexed DB queries  
-• Rate limiting to prevent abuse  
-• Circuit breaker for external API reliability  
-• Retry with exponential backoff for API calls  
+• Rate limiting to prevent abuse    
 
 These optimizations help achieve low response times and reliability.
 
@@ -117,9 +115,18 @@ These optimizations help achieve low response times and reliability.
 • External API integration  
 • Webhook handling with idempotency  
 • Rate limiting  
-• Circuit breaker pattern  
 
 ---
 
+# Focus Areas
+I focused primarily on Redis caching and deployment reliability, as these have the biggest real-world impact on backend performance and scalability.
+
+A major part of my effort went into implementing Redis correctly for caching tokens and product responses. This included handling TTLs, avoiding redundant calls, and ensuring cache usage actually reduced database load. Getting Redis working securely with a managed provider and handling permission/configuration issues helped me understand real-world caching challenges beyond local development.
+
+I also spent significant time on deployment and environment configuration. Setting up the service on Render, integrating a cloud MySQL database, and connecting a managed Redis instance required careful handling of environment variables, networking, and production settings. This ensured the API runs reliably in a real cloud environment rather than just locally.
+
+Overall I prioritized areas that directly affect performance, scalability, and production readiness, since those are critical in real backend systems.
+
 # Author
 Yash Kaushal
+
