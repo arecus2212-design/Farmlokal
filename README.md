@@ -1,7 +1,9 @@
-# Backend Assignment
+#Farmlokal Backend Assignment
 
 ## Live Demo
-https://your-render-url.onrender.com
+https://farmlokal-5rpr.onrender.com/health
+https://farmlokal-5rpr.onrender.com/products
+https://farmlokal-5rpr.onrender.com/token
 
 ---
 
@@ -9,9 +11,9 @@ https://your-render-url.onrender.com
 
 ## 1. Clone repo
 
-git clone <your-repo-url>
+git clone 
 
-cd backend-assignment
+cd farmlokal
 
 ## 2. Install dependencies
 
@@ -26,7 +28,7 @@ DB_USER=root
 DB_PASS=yourpassword  
 DB_NAME=test  
 DB_PORT=3306  
-REDIS_URL=redis://127.0.0.1:6379  
+REDIS_URL=redis://default:password@grown-dodo-48089.upstash.io:6379
 
 ## 4. Run project
 
@@ -121,5 +123,3 @@ These optimizations help achieve low response times and reliability.
 
 # Author
 Yash Kaushal
-
-Your Name
