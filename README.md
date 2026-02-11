@@ -11,6 +11,7 @@ https://farmlokal-5rpr.onrender.com/token
 
 ## 1. Clone repo
 
+```bash
 git clone 
 
 cd farmlokal
@@ -129,4 +130,5 @@ Overall I prioritized areas that directly affect performance, scalability, and p
 
 # Author
 Yash Kaushal
+
 
