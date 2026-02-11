@@ -13,13 +13,14 @@ https://farmlokal-5rpr.onrender.com/token
 
 ```bash
 git clone 
-
+````
+```bash
 cd farmlokal
-
+````
 ## 2. Install dependencies
-
+```bash
 npm install
-
+````
 ## 3. Configure environment variables
 
 Create a `.env` file in root:
@@ -130,5 +131,6 @@ Overall I prioritized areas that directly affect performance, scalability, and p
 
 # Author
 Yash Kaushal
+
 
 
