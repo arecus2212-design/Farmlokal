@@ -24,14 +24,14 @@ npm install
 ## 3. Configure environment variables
 
 Create a `.env` file in root:
-
+```bash
 DB_HOST=localhost  
 DB_USER=root  
 DB_PASS=yourpassword  
 DB_NAME=test  
 DB_PORT=3306  
 REDIS_URL=redis://default:password@grown-dodo-48089.upstash.io:6379
-
+````
 ## 4. Run project
 ```bash
 npm run dev
@@ -131,6 +131,7 @@ Overall I prioritized areas that directly affect performance, scalability, and p
 
 # Author
 Yash Kaushal
+
 
 
 
