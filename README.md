@@ -33,9 +33,9 @@ DB_PORT=3306
 REDIS_URL=redis://default:password@grown-dodo-48089.upstash.io:6379
 
 ## 4. Run project
-
+```bash
 npm run dev
-
+````
 Server runs on:
 http://localhost:3000
 
@@ -131,6 +131,7 @@ Overall I prioritized areas that directly affect performance, scalability, and p
 
 # Author
 Yash Kaushal
+
 
 
 
